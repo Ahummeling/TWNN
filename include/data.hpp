@@ -5,6 +5,7 @@
 
 class Map {
     public: 
+        int **map;
         Map();
         ~Map();
 };
