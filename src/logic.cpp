@@ -6,3 +6,8 @@
 #include <math.h>
 #include <random>
 
+class map {
+    public: 
+        int map[200][200];
+        for(int j =0; j++)
+}
