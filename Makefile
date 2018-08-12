@@ -1,11 +1,12 @@
-CC=gcc
-CFLAGS=-Wall -g -O3
-INCLUDES=includes/data.hpp
+CFLAGS = -Wall -g -O3
+INCLUDES = 
+OBJECTS = 
 
-OBJECTS=Formulas.o
+vpath %.cpp src
+vpath %.hpp include
 
 all: ${OBJECTS} ${INCLUDES}
-	gcc -o tw  ${OBJECTS} -lm
+	gcc src/main.cpp -o tw ${OBJECTS} -lm
 
 clean:
 	rm -f *~
