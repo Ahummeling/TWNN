@@ -5,7 +5,6 @@
 #include <boost/program_options.hpp>
 #include <math.h>
 #include <random>
-#include "../include/data.hpp" /*update if nessecary*/
 
 Map::Map() {
     map = (int**)malloc(200 * sizeof(int*));
