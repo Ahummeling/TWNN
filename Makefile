@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -g -O3
-INCLUDES=
+INCLUDES=includes/data.hpp
 
 OBJECTS=Formulas.o
 
