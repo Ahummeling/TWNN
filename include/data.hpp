@@ -1,9 +1,8 @@
 /*first header file*/
-#ifndef DATA_HPP
-#define DATA_HPP
+#pragma once
 
 /*class that holds the settings and constants of the game*/
-class Game {
+class Game { //to be replaced by a config file?
     public:
         class Buildings {
             struct headquarter {const float init_level=1, max_level=30, min_level=1, wood=90, clay=80, iron=70, pop=5,
@@ -35,12 +34,25 @@ class Game {
         };
 };
 
+class player {
+    
+};
+
+class village {
+    
+};
 
 class Map {
     public: 
+        Map(){
+            std::cout<< "Constructed map" << std::endl;
+        }
         int **map;
-        Map();
-        ~Map();
+       
+
+        ~Map(){
+            std::cout << "Destructed map" << std::endl;
+        }
 };
 
-#endif
+ int createmap(Map map);

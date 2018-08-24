@@ -4,8 +4,6 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}",
-                "$/home/harold/Documents/TW/Code/TWNN/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
